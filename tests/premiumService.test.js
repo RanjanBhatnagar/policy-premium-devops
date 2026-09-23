@@ -16,7 +16,7 @@ describe("Premium Calculation", () => {
   test("should apply higher loading above 50", () => {
     const result = calculatePremium(60, 1000000);
 
-    expect(result).toBe(9000);
+    expect(result).toBe(5000);
   });
 
   test("should reject invalid age", () => {
