@@ -4,7 +4,8 @@ describe("Premium Calculation", () => {
   test("should calculate premium for normal age", () => {
     const result = calculatePremium(30, 1000000);
 
-    expect(result).toBe(6000);
+    //expect(result).toBe(6000);
+    expect(result).toBe(9999);
   });
 
   test("should apply age loading above 35", () => {
