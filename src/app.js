@@ -8,6 +8,8 @@ const app = express();
 
 app.use(express.json());
 
+//Server Requests
+
 app.get("/", (req, res) => {
   res.json({
     application: "Policy Premium Calculator",
